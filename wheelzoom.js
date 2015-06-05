@@ -3,7 +3,7 @@
 	license: MIT
 	http://www.jacklmoore.com/wheelzoom
 */
-window.wheelzoom = (function(){
+module.exports = function(){
 	var defaults = {
 		zoom: 0.10
 	};
@@ -192,4 +192,4 @@ window.wheelzoom = (function(){
 			return elements;
 		}
 	}
-}());
+};
