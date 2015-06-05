@@ -1,0 +1,19 @@
+{
+  "name": "wheelzoom",
+  "version": "1.0.0",
+  "description": "A small script for zooming IMG elements with the mousewheel/trackpad.  Wheelzoom works by replacing the img element's src with a transparent image, then using the original src as a background image, which can be sized and positioned. Wheelzoom is dependency free, doesn't add any extra elements to the DOM, or change the positioning of the IMG element.",
+  "main": "wheelzoom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vegetableman/wheelzoom.git"
+  },
+  "author": "vegetableman <vegetablebot@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vegetableman/wheelzoom/issues"
+  },
+  "homepage": "https://github.com/vegetableman/wheelzoom"
+}
